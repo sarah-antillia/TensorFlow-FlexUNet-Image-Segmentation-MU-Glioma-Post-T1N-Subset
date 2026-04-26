@@ -3,7 +3,7 @@
 Sarah T. Arai<br>
 Software Laboratory antillia.com<br>
 <br>
-This is the first experiment of Image Segmentation for MU-Glioma-Post (University of Missouri Post-operative Glioma)-T1N-Subset,
+This is the first experiment of Image Segmentation for MU Glioma Post (University of Missouri Post-operative Glioma) T1N(Native T1WI) Subset,
  based on our 
 TensorFlowFlexUNet (TensorFlow Flexible UNet Image Segmentation Model for Multiclass) 
 and a 384x384 pixels upscaled PNG 
@@ -350,8 +350,14 @@ Evaluation console output:<br>
 <br><br>
 
 <a href="./projects/TensorFlowFlexUNet/MU-Glioma-Post-T1N-Subset/evaluation.csv">evaluation.csv</a><br>
-The loss (categorical_crossentropy) to this MU-Glioma-Post-T1N-Subset/test was very low, and dice_coef_multiclass very high as shown below.
+The loss (categorical_crossentropy) to this MU-Glioma-Post-T1N-Subset/test was low, and dice_coef_multiclass high as shown below.
+<pre>
+categorical_crossentropy,0.011
+dice_coef_multiclass,0.994
+</pre>
 <br>
+However, the evaluation scores of T2W case <a href="https://github.com/sarah-antillia/TensorFlow-FlexUNet-Image-Segmentation-MU-Glioma-Post-T2W-Subset">TensorFlow-FlexUNet-Image-Segmentation-MU-Glioma-Post-T2W-Subset</a> were slightly better than these T1N scores.<br>
+<b>T2W Evaluation</b><br>
 <pre>
 categorical_crossentropy,0.0086
 dice_coef_multiclass,0.9953
