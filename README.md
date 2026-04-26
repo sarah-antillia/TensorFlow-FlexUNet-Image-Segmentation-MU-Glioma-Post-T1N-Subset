@@ -507,9 +507,9 @@ TensorFlow-FlexUNet-Image-Segmentation-MU-Glioma-Post-T2W-Subset</a>.
 <h3>
 7 MaskOverlay Video of 3D Volume Segmentation
 </h3>
-Please move <b>./projects/TensorFlowFlexUNet/MU-Glioma-Post-T1N-Subset</b> folder, and run the following bat file to generate
- MaskOverlay mp4 video of 3D Volume Segmentation.
-to generate an overlays.mp4 file.<br>
+Please move to <b>./projects/TensorFlowFlexUNet/MU-Glioma-Post-T1N-Subset</b> folder, and run the following bat file 
+to generate
+ MaskOverlay mp4 video of 3D Volume Segmentation. <br>
 <pre>
 >./6.video3d.bat
 </pre>
