@@ -518,10 +518,9 @@ This simply runs the following command.
 >python ../../../src/MaskOverlayVideoGenerator.py ./train_eval_infer.config
 </pre>
 <br>
-<video  src="./projects\TensorFlowFlexUNet/MU-Glioma-Post-T1N-Subset/video_3d/overlays.mp4" 
- controls="controls" 
-width="384" height="384">
-
+<video  src="https://github.com/sarah-antillia/TensorFlow-FlexUNet-Image-Segmentation-MU-Glioma-Post-T1N-Subset/tree/main/projects/TensorFlowFlexUNet/MU-Glioma-Post-T1N-Subset/video_3d/overlays.mp4" 
+ controls="controls"
+width="480" height="480">
 </video>
 
 <br>
