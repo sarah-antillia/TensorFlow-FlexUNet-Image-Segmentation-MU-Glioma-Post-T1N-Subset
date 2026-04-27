@@ -4,7 +4,7 @@ Sarah T. Arai<br>
 Software Laboratory antillia.com<br>
 <ul>
 <li>2026/04/27: Updated infer3d method of <a href="./src/TensorFlowFlexModel.py">TensorFlowFexModel.py</a>, and ran 5.infer3d.bat.</li>
-<li>2026/04/27: Regenerated overlays.mp4 from newly maskoverlay PNG files</li>
+<li>2026/04/27: Regenerated overlays.mp4 from new maskoverlay PNG files</li>
 </ul>
 <br>
 This is the first experiment of Image Segmentation for MU Glioma Post (University of Missouri Post-operative Glioma) T1N(Native T1WI) Subset,
